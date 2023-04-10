@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="shortcut icon" href="G.ico"/>
+    <title>Ibrahima GUENE</title>
+    
+</head>
+<body>
+    <div id="cursor"><div id="circle"></div></div>
+   
+    <section class="page1">
+        
+        <div class="gauche">
+            <h2 class="titre">
+                <a class="titre" href="#" >PORTFOLIO.</a>
+                
+            </h2>   
+        </div>
+        <div class="phone">
+            
+            <header class="menu">
+                <a href="#" class="home" id="_home" onclick="document.querySelector('.phone').classList.toggle('active')">Home</a>
+              <ul class="options">
+                
+                <li class="option">
+                    <a href="#a_propos"  onclick="document.querySelector('.phone').classList.toggle('active')">About</a>
+                </li>
+                <li class="option">
+                    <a href="#page_3"  onclick="document.querySelector('.phone').classList.toggle('active')">Portfolio</a>
+                </li>
+                <li class="option">
+                    <a href="#page_4"  onclick="document.querySelector('.phone').classList.toggle('active')">Skills</a>
+                </li>
+                <li class="option">
+                    <a href="#page_5" onclick="document.querySelector('.phone').classList.toggle('active')">Contacts</a>
+                </li>
+                <li class="option">
+                    <a href="cv.pdf">CV</a>
+                </li>
+              </ul>
+            </header>
+            <svg class="x" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 400" height="700" width="420">
+              <g class="top-bars" stroke-width="4">
+                <path class="bar bar1" d="M 178,20 H 202" />
+                <path class="bar bar2" d="M 178,29 H 202" />
+              </g>
+            </svg>
+            <div class="menu-click-area" onclick="document.querySelector('.phone').classList.toggle('active')"></div>
+          </div>
+        
+        <div class="centre">
+                <h1 class="my">&lt;my name is&gt;</h1>
+                <h1 class="prenom">IBRAHIMA GUENE</h1>
+                <a href="#a_propos" class="metier">i'm a developper</a>
+            </div>
+          
+        <div class="droit">
+           
+        
+            
+                <script type="text/javascript">
+                    window.addEventListener("scroll",function(){
+                        var header =document.querySelector("header");
+                        header.classList.toggle("sticky",window.scrollY >0);
+                       
+                        if (window.scrollY >0){
+                        document.getElementById("_home").style.visibility = "visible";
+                      
+                        }
+                        else{
+                            document.getElementById("_home").style.visibility = "hidden";
+                         
+                        }
+
+                        
+                    window.id
+                    
+                    })
+
+                 </script>
+            
+            <div class="photo">
+                <img src="" alt="">
+            </div>
+            
+            
+        </div>
+        
+    </section>
+    <section class="page2" id="a_propos">
+        <div class="part1">
+           
+            <div class="container"></div>
+            
+        </div>
+        <div class="part2">
+            <div class="about">
+                <h1 class="you">qui suis-je</h1>
+                <h1 class="prenom1">HELLO</h1>
+                
+            </div>
+            <p>
+                
+                Développeur passionné dans le domaine du web ,
+                actuellement étudiant en Licence MIAGE.<br>
+                Je conçois et réalise des sites web du cahier des charges à la mise en ligne.<br>
+                Ayant fait une licence mathématique in formatique developpe aussi en PYTHON, et j'ai des vompétences pour la programmation dans le Langage C .<br>
+                
+                J'ai quelques projets intéressants à voir.
+            </p>
+        </div>
+    </section>
+    <section class="page3" id="page_3">
+        <div class="my_work">
+            <h1>
+                my work
+            </h1>
+            <p><b>awesome projects</b></p>
+        </div>
+        
+        <div class="tableau">
+            <a href="https://github.com/iguene/echecs" style="background-image: url(chess.jpg);"></a>
+            <a href="https://github.com/Rom001/ndi-2022" style="background-image: url(html.jpg);"></a>
+            <a href="https://github.com/Deus77777/Site-Pierre-Feuille-Ciseau" style="background-image: url(bdd.jpg);"></a>
+            <a href="https://github.com/iguene/snake" style="background-image: url(sepent.jpg);"></a>
+            <a href="https://deus777.itch.io/klickety" style="background-image: url(klickty.png);"></a>
+            <a href="https://github.com/iguene/ariane-et-minotaure" style="background-image: url(ariane.jpg);"></a>
+            
+
+           
+        </div>
+        
+    </section>
+    <section class="page4" id="page_4">
+        <h1>mes competences</h1>
+        <div class="comp">
+        <div class="mes_competences">
+            
+
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JAVASCRIPT</span>
+            <span>C</span>
+            <span>JAVA</span>
+            <span>PYTHON</span>
+            
+        </div>
+        <div class="bar-container">
+            <div class="bar"><div class="progress"></div></div>
+            <div class="bar"><div class="progress"></div></div>
+            <div class="bar"><div class="progress"></div></div>
+            <div class="bar"><div class="progress"></div></div>
+            <div class="bar"><div class="progress"></div></div>
+            <div class="bar"><div class="progress"></div></div>
+        </div>
+    </div>
+
+    </section>
+    <section class="page5" id="page_5">
+        <div class="contact">
+            <h1>
+                <a href="mailto:ibrahimaguene@gmail.com" id="mail-link" class="mail">
+                    contactez moi ->
+                </a>
+            </h1>
+        </div>
+    </section>
+    
+
+    
+
+
+</body>
+</html>
