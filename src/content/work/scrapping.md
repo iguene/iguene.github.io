@@ -1,7 +1,7 @@
 ---
 title: scrapping
 publishDate: 2019-10-02 00:00:00
-img: /assets/scrapp.jpeg
+img: /my-repo/assets/scrapp.jpeg
 img_alt: scrapping tool.
 description: |
   We developed a scrapping tool with python.
