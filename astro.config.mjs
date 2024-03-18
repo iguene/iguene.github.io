@@ -4,4 +4,5 @@ import netlify from "@astrojs/netlify/functions";
 
 export default defineConfig({
   site: 'https://iguene.github.io/',
+  base: '/my-repo',
 })
